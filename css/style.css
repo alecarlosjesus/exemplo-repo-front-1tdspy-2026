@@ -26,10 +26,10 @@ body{
     padding: 20px;
 }
 
-header{
+#cabecalho{
     background-color: #2b2828;
     padding: 10px;
-    text-align: center;
+    
 }
 
 header nav ul{
