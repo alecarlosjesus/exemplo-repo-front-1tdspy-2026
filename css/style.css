@@ -33,8 +33,28 @@ body{
     
 }
 
-header nav ul{
+#menu ul{
     list-style: none;
     padding: 0;
     margin: 0;
+
 }
+#menu ul li{
+    display: inline-block;
+    margin: 0 10px;
+
+
+
+}
+
+
+#menu ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #171715;
+    padding: 10px;
+
+}
+
+
+
