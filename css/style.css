@@ -37,3 +37,26 @@ header nav ul{
     padding: 0;
     margin: 0;
 }
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li{
+    display: inline;
+} l
+
+#menu ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #171515;
+    padding: 10px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: green;
+    background-color: #171515;
+}
