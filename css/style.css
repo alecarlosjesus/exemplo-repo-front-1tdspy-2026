@@ -13,6 +13,17 @@ body{
     padding: 10px;
 }
 
+a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
 header nav ul{
     list-style: none;
     padding: 0;
