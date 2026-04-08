@@ -53,14 +53,32 @@ body{
     color: #fff;
     background-color: #171715;
     padding: 10px; 
+    transition: 0.3s;
+}
+ #menu ul li  a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #171715;
+    padding: 10px; 
+    transition: 0.3s;
 }
 
+main section a:hover{
+text-decoration: none;
+    color: #fff;
+    background-color: #171715;
+    padding: 10px; 
+    transition: 0.3s;
+
+}
 
 body,header,nav,ul,li.section,footer,main {
     font-family: Arial, Helvetica, sans-serif;
 
 
 }
+
+
 
 
 
