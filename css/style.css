@@ -17,12 +17,13 @@ body{
 a{
     color: #fff;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 a:hover{
-    text-decoration: underline;
     color: #fff;
-    background-color: #171515;
+    background-color: #026055;
 }
 a:active{
     color: #fff;
@@ -42,6 +43,7 @@ a:active{
 
 #menu ul li a:hover{
     padding: 10px;
+    border-radius: 50%;
 }
 
 
