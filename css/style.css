@@ -1,23 +1,5 @@
 
-/* COMENTÁRIO EM CSS */
 
-
-/* p,section,article,aside,nav,header,footer,main,div{
-    color: blue;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-
-} */
-
-/* section p{
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-} */
-
-/* TRABALHANDO ESTILO DO BODY */
 body{
     background-color: #2c3e50;
     color: #fff;   
@@ -27,9 +9,40 @@ body{
 }
 
 #cabecalho{
-    background-color: #2b2828;
+    background-color: #2c3e50;
     padding: 10px;
     color: #ecf0f1; 
 }
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #fff;
+    background-color: #171515;
+}
+a:active{
+    color: #fff;
+    background-color: #b70000;
+}
+
+#menu ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+#menu ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#menu ul li a:hover{
+    padding: 10px;
+}
+
 
 
