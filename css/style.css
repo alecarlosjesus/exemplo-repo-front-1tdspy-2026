@@ -56,4 +56,11 @@ body{
 }
 
 
+body,header,nav,ul,li.section,footer,main {
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
 
