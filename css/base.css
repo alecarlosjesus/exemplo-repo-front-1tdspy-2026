@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    font-size: 100%;
+    font-weight: normal;
+
 }  
 
 html{
@@ -13,4 +16,11 @@ html{
 body{
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+    text-deoration: none;
+    color: inherit;
 }
