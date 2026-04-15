@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "MontSerrat";
+    src: url("../fonts/montserrat.black.otf");
+}
+
 body{
     background-color: #171515;
     color: #fff;    
