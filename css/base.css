@@ -2,6 +2,8 @@
     margin : 0;
     padding: 0;
     box-sizing: content-box;
+    font-size : 100%;
+    font_weight : normal;
 
 
 }
@@ -12,6 +14,16 @@ html{
 
 body{
     font-size: 2rem;
+    font-family: 'Segoe UI' , Tahoma, Geneva;
+    width: 100wd;
+    height: 100vh;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit; 
 
 
 }
