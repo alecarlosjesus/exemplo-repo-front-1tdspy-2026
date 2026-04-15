@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /*priedade herdada, 100% = 16px = 1rem*/
+    font-family: Arial, sans-serif;
+}
