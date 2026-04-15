@@ -1,1 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html{
+    font-size: 62.5%;/*100% = 10px = 1rem*/
+}
+
+body{
+    font-size: 2rem;
+}
