@@ -2,3 +2,6 @@
 
 # Ignorando o DS_Store do macOS
 .DS_Store
+
+# ignorando as configurações do vs code
+.vscode/
