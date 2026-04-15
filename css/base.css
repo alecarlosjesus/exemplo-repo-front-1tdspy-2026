@@ -5,5 +5,9 @@
 }
 
 html {
-    font-size: 100%;
+    font-size: 62.5%;
+}
+body {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
