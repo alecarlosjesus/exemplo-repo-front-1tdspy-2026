@@ -6,5 +6,6 @@
 
 html {
     font-size: 100%; /*priedade herdada, 100% = 16px = 1rem*/
-    font-family: Arial, sans-serif;
+    /* font-size: 62,5% -- 625% = 10px = 1rem*/
+    font-family: sans-serif;
 }
