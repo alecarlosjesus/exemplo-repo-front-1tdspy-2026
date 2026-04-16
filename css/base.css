@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: content-box;
     font-size : 100%;
-    font_weight : normal;
+    font-weight : normal;
 
 
 }
@@ -15,9 +15,17 @@ html{
 body{
     font-size: 2rem;
     font-family: 'Segoe UI' , Tahoma, Geneva;
-    width: 100wd;
+    width: 100vw;
     height: 100vh;
-    
+
+
+}
+
+main{
+    width: 100%;
+    height: 100%;
+
+
 
 }
 
