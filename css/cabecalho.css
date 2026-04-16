@@ -5,7 +5,7 @@
 }
 
 .cabecalho__li{
-    display: inline;
+    display: inline-block;
     margin: 1%;
 }
 
@@ -15,7 +15,7 @@
     padding: 10%;
     width: 10vw;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .cabecalho__a:hover {
