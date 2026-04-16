@@ -19,6 +19,11 @@ body{
     height: 100vh;
 }
 
+main{
+    width: 100%;
+    height: 100%;
+}
+
 /*uma das poucas tags que carrega css pre-definido: underline e dois tipos de cor (link e quando clica)*/
 a{
     text-decoration: none;
