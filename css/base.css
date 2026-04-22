@@ -16,11 +16,16 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
+
 main{
     width: 100%;
-    height: 100%;
-    
+
 }
 
 a{
