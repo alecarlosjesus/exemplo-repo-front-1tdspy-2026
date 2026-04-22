@@ -6,9 +6,20 @@
     font-weight: normal;
 }
 
+:root{
+    --cor-primaria: #1219d8;
+    --cor-secundaria: #d81212;
+    --bg-panel: #c8cdd4;
+    --title-main: 4rem;
+    --gradiente: linear-gradient(45deg, rgba(59, 192, 15, 0.798) , rgba(239, 217, 16, 0.6),rgba(7, 19, 236, 0.6));
+
+}
+
+
+
 html{
     /* font-size: 100%; 100% = 16px = 1rem */
-    font-size: 62.5%;
+     font-size: 62.5%; /* 62.5% = 10px = 1rem */
 }
 
 body{
@@ -16,11 +27,16 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
 main{
     width: 100%;
-    height: 100%;
+
 }
 
 a{
