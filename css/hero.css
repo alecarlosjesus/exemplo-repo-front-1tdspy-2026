@@ -1,0 +1,14 @@
+.hero{
+    background-color: #ff0000;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.hero__container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6)) , url("../img/img-01-fundo-hero.jpg");
+    background-position: center;
+    background-size: cover;
+}
