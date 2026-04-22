@@ -6,6 +6,12 @@
     font-weight: normal;
 }
 
+:root{
+    --bg-panel: #c8cdd4;
+    --title-main: 4rem;
+    --grandient: linear-gradient(45deg,rgba(42, 123, 155, 0.6) 0%, rgba(87, 199, 133, 0.6) 50%, rgba(237, 221, 83, 0.6) 100%);
+}
+
 html{
     /* font-size: 100%; 100% = 16px = 1rem */
     font-size: 62.5%; 
@@ -16,6 +22,11 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
 main{
