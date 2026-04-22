@@ -27,7 +27,15 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, 
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .item1 {
