@@ -1,8 +1,17 @@
 .cabecalho{
     background-color: #c8cdd4;
-    width: 100px;
+    width: 100;
     height: 12%;
 }
+
+.cabecalho__ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
 
 .cabecalho__li{
     display: inline-block;
