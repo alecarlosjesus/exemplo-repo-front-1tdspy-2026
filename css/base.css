@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/*
+    Declarando variáveis no CSS:
+    --cor-de-fundo : #ff0000;
+    --size-font-padrao: 3rem;
+
+    Para utilizar a variável css:
+
+    h1{
+        color : var(--cor-de-fundo);
+        font-size : var(--size-font-padrao);
+    }
+
+*/
+
+:root{
+    /* Cores de Fundo e Identidade */
+    --bg-dark:#1a1b1c;  /* Fundo quase preto */
+    --bg-dark-med:#4f5357;  /* Fundo quase preto */
+    --bg-panel:#242629; /* Fundo de base */
+    --primary:#556b2f; /* Verde Oliva */
+    --primary-hover:#6b8e23; /* Verde Oliva mais claro para o hover */
+
+    /* Cores de Texto */
+    --text-main:#e0e0e0; /* Branco acinzentado */
+    --text-muted:#a0a0a0; /* Textos menos importantes */
+    --text-inv:#ffffff; /* Branco puro para contraste no verde do hover */
+}
+
+
+html{
+    font-size: 62.5%;/* 10px = 1rem */
+}
+
+body{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+main{
+    position: relative;
+    width: 100%;
+}
