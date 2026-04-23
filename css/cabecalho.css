@@ -4,22 +4,28 @@
     height: 12%;
 }
 
+.cabecalho__ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 .cabecalho__li{
     display: inline-block;
     margin: 1%;
 }
 
 .cabecalho__a{
-    display: inline-block;
     background-color: #a2c0dd;
+    display: inline-block;
     padding: 10%;
     width: 10vw;
     text-align: center;
     border-radius: 10px;
-    
 }
 
-.cabecalho__a:hover{
-     background-color: rgb(209, 222, 235);
-     color: white;
+.cabecalho__a:hover {
+    background-color: #dadde0;
+    color: #fff;   
 }
