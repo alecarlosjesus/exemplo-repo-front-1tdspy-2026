@@ -2,3 +2,5 @@
 
 # Ignorando o DS_Store do macOS
 .DS_Store
+
+# Ignorar o arquivo .vscode para evitar que obtenham infromações pessoais contidas no arquivo json
