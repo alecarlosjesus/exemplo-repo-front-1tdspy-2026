@@ -1,55 +1,44 @@
 .hero{
-<<<<<<< HEAD
-    background-color: var(--bg-dark-med);
-    color: var(--text-main);
-    width: 100%;
-    height: 100vh;
-=======
-    background-color: #ff000f;
+    background-color: #ff0000;
     width: 100%;
     height: 100%;
     color: #fff;
->>>>>>> 5d17c6a658502028c27c1feb8d9e6dbe1056a28f
 }
 
 .hero__container{
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
-    background-image: linear-gradient(rgba(16, 16, 16, 0.775)), url("../img/img-01-fundo-hero.jpg");
-    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.6)) , url("../img/img-01-fundo-hero.jpg");
     background-position: center;
-    background-repeat: no-repeat;
-    padding: 1rem 3rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
-.hero__title{
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 500;
-}
-
-.hero__text{
-    text-align: justify;
-    line-height: 7rem;
-    font-size: 3rem;
-    font-weight: 300;
-}
-
-.hero__btn{
-    display: block;
-    background-color: var(--primary);
-    width: auto;
-    min-width: 10rem;
-    max-width: 15rem;
-    text-align: center;
-    padding: 1rem;
-    border-radius: 10px;
+.hero_btn{
+    display: inline-block;
+    background-color: #a2c0dd;
+    width: 30%;
+    height: 8%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
-    border: 0.2rem solid #fff;
-=======
-    background-image: linear-gradient(rgba(0,0,0,0.6)), url("../img/img-01-fundo-hero.jpg");
-    background-position: center;
-    background-size: cover;
->>>>>>> 5d17c6a658502028c27c1feb8d9e6dbe1056a28f
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+
+    .hero__title{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .hero__text{
+        font-size: 1.4rem;
+        text-align: justify;
+        line-height: 1.5rem;
+    }
 }

@@ -5,41 +5,45 @@
 }
 
 .cabecalho__li{
-<<<<<<< HEAD
     display: inline-block;
-=======
-    display: inline-block; /*linhas ficam lado a lado, mas podem ser alteradas as caracteristca*/
->>>>>>> 5d17c6a658502028c27c1feb8d9e6dbe1056a28f
     margin: 1%;
 }
 
 .cabecalho__a{
     background-color: #a2c0dd;
     display: inline-block;
-<<<<<<< HEAD
     padding: 10%;
-=======
-    padding: 10px;
->>>>>>> 5d17c6a658502028c27c1feb8d9e6dbe1056a28f
     width: 10vw;
     text-align: center;
     border-radius: 10px;
 }
 
-<<<<<<< HEAD
 .cabecalho__a:hover {
     background-color: #dadde0;
     color: #fff;   
 }
 
 
-@media (max-width:320px){
+@media (min-width:320px) and (max-width:425px){
     .cabecalho{
-        width: 50%;
+        height: auto;
     }
-=======
-.cabecalho__a:hover{
-    background-color: #dadde0;
-    color: #fff;
->>>>>>> 5d17c6a658502028c27c1feb8d9e6dbe1056a28f
+
+    .cabecalho__ul{
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .cabecalho__li{
+        margin:0 2%;
+        display: inline-block;
+    }
+
+    .cabecalho__a{
+        font-size: 1.2rem;
+        display: block;
+        width: 15vw;
+        margin: 0 3%;
+        padding: 0 10%;
+    }
 }
