@@ -31,3 +31,28 @@
     background-color: #dadde0;
     color: #fff;
 }
+
+@media (min-width:320px) and (max-width:425px){
+    .cabecalho{
+        height: auto;
+    }
+
+    .cabecalho__ul{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .cabecalho__li{
+        margin:0  2%;
+        display: inline-block;
+    }
+
+    .cabecalho__a{
+    font-size: 1.2rem;
+    display: block;
+    padding: 0 20%;
+    width: 15vw;
+    margin: 0 3%;
+    
+}
+}

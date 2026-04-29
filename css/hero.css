@@ -16,10 +16,36 @@
     background-image: var(--gradiente) , url("../img/img-01-fundo-hero.jpg");
     background-position: center;
     background-size: cover;
-    padding: 1%;
-
+    padding: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap: nowrap;
 
+}
+
+.hero__btn{
+    display: flex;
+    background-color: #a2c0dd;
+    width: 30%;
+    height: 8%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media (min-width:320px) and (max-width:425px){
+
+    .hero__title{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .hero__text{
+        font-size: 1.4rem;
+        text-align: justify;
+        
+    }
 }
