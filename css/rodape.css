@@ -1,0 +1,14 @@
+.rodape {
+  height: auto;
+  color: #fff;
+  text-align: center;
+  margin: 2rem 0;
+  padding: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .rodape {
+    font-size: 1.3rem;
+    padding: 2rem 0;
+  }
+}
