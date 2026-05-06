@@ -1,14 +1,30 @@
-.hero{
+.hero {
     background-color: #ff0000;
     width: 100%;
     height: 100%;
     color: #fff;
 }
 
-.hero__container{
+.hero__container--index{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../img/img-01-fundo-hero.jpg");
+}
+
+.hero__container--basquete{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../img/img-02-fundo-hero-basq.jpg");
+}
+
+.hero__container--futebol{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../img/img-03-fundo-hero-fut.jpg");
+}
+
+.hero__container--volei{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../img/img-02-fundo-hero-vol.jpg");
+}
+
+.hero__container {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6)) , url("../img/img-01-fundo-hero.jpg");
+    
     background-position: center;
     background-size: cover;
     display: flex;
@@ -18,29 +34,87 @@
     padding: 5%;
 }
 
-.hero__btn{
+.hero__btn {
     display: flex;
-    background-color: #a2c0dd;
-    width: 30%;
-    height: 10%;
+    background-color: #bb9154;
+    width: 20rem;
+    height: 8rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    border-radius: 5px;
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
 
-@media (min-width:320px) and (max-width:425px){
-
-    .hero__title{
+    .hero__title {
         text-align: center;
         font-size: 1.5rem;
         font-weight: 600;
     }
 
-    .hero__text{
+    .hero__text {
         font-size: 1.4rem;
         text-align: justify;
+    }
 
+    .hero__btn {
+        margin-top: 1rem;
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   
+    .hero__container {
+        gap:1rem;
+    }
+    
+    .hero__title {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .hero__text {
+        font-size: 2rem;
+        text-align: justify;
+        line-height: 2.4rem;
+    }
+
+    .hero__btn {
+        margin-top: 2rem;
+        width: 15rem;
+        height: 5rem;
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 1440px) {
+   
+    .hero__container {
+        gap:2rem;
+    }
+    
+    .hero__title {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    .hero__text {
+        font-size: 2.5rem;
+        text-align: justify;
+        line-height: 3rem;
+    }
+
+    .hero__btn {
+        margin-top: 2rem;
+        width: 15rem;
+        height: 5rem;
+        font-size: 1.7rem;
     }
 }

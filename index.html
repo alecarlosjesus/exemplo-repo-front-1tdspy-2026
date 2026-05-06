@@ -1,28 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title aria-label=" Página Inicial de ESPORTES">ESPORTE TOTAL</title>
+    <title>ESPORTE TOTAL</title>
     <link rel="icon" href="./img/favicon.png" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
     <header class="cabecalho">
-      <nav aria-label="Menu de Navegação Principal" class="cabecalho__nav">
+      <nav aria-label="Menu de navegação principal" class="cabecalho__nav">
         <ul class="cabecalho__ul">
           <li class="cabecalho__li">
             <a
-              aria-label="Página inicial"
-              class="cabecalho_a cabecalho_a--active"
+              aria-label="Acessar página"
+              class="cabecalho__a cabecalho__a--active"
               href="#"
               >HOME</a
             >
           </li>
           <li class="cabecalho__li">
             <a
-              aria-label="Página de basquete"
+              aria-label="Acessar página"
               class="cabecalho__a"
               href="./paginas/basquete.html"
               >Basquete</a
@@ -30,7 +30,7 @@
           </li>
           <li class="cabecalho__li">
             <a
-              aria-label="Página de futebol"
+              aria-label="Acessar página"
               class="cabecalho__a"
               href="./paginas/futebol.html"
               >Futebol</a
@@ -38,7 +38,7 @@
           </li>
           <li class="cabecalho__li">
             <a
-              aria-label="Página de vôlei"
+              aria-label="Acessar página"
               class="cabecalho__a"
               href="./paginas/volei.html"
               >Volei</a
@@ -48,10 +48,9 @@
       </nav>
     </header>
 
-
-    <main class= "conteudo">
+    <main class="conteudo">
       <section class="hero">
-        <div class="hero__container">
+        <div class="hero__container hero__container--index">
           <h1 class="hero__title">A MELHOR PÁGINA DE ESPORTES DA INTERNET</h1>
           <p class="hero__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
@@ -75,52 +74,52 @@
             necessitatibus illum id. Voluptatibus a ullam nam rem illo
             consequatur distinctio fugiat deserunt modi.
           </p>
-          <a aria-label="conta pessoal" class="hero__btn" href="#">ACESSAR CONTA</a>
+          <a class="hero__btn" href="#">ACESSAR CONTA</a>
         </div>
       </section>
 
       <div class="conteudo__sec">
         <section class="conteudo__mod">
-          <h2>Basquete</h2>
-          <p>
+          <h2 class="conteudo__tit">Basquete</h2>
+          <p class="conteudo__txt">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Reprehenderit voluptatem mollitia eaque voluptatibus perspiciatis
             debitis dicta placeat distinctio, magni, alias, velit perferendis?
             Dolorum, voluptate quis. Sapiente quos officia magni maxime.
           </p>
-          <a aria-label="Quer saber" href="./paginas/basquete.html"
+          <a class="conteudo__btn" aria-label="Quer saber" href="./paginas/basquete.html"
             >mais sobre...</a
           >
         </section>
         <section class="conteudo__mod">
-          <h2>Futebol</h2>
-          <p>
+          <h2 class="conteudo__tit">Futebol</h2>
+          <p class="conteudo__txt">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Reprehenderit voluptatem mollitia eaque voluptatibus perspiciatis
             debitis dicta placeat distinctio, magni, alias, velit perferendis?
             Dolorum, voluptate quis. Sapiente quos officia magni maxime.
           </p>
-          <a aria-label="Quer saber" href="./paginas/futebol.html"
-            >mais sobre...</a
-          >
+          <a class="conteudo__btn" aria-label="Quer saber" href="./paginas/futebol.html">mais sobre...</a>
         </section>
+
         <section class="conteudo__mod">
-          <h2>Volei</h2>
-          <p>
+          <h2 class="conteudo__tit">Volei</h2>
+          <p class="conteudo__txt">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Reprehenderit voluptatem mollitia eaque voluptatibus perspiciatis
             debitis dicta placeat distinctio, magni, alias, velit perferendis?
             Dolorum, voluptate quis. Sapiente quos officia magni maxime.
           </p>
-          <a aria-label="Quer saber" href="./paginas/volei.html"
-            >mais sobre...</a
-          >
+          <a class="conteudo__btn" aria-label="Quer saber" href="./paginas/volei.html">mais sobre...</a>
         </section>
+
       </div>
+
     </main>
 
-    <footer aria-label="Rodapé">
-      <p>Minha Empresa &copy; - 2026 Todos os direitos reservados</p>
+    <footer class="rodape">
+      <p class="rodape__cpr">ESPORTE TOTAL &copy; - 2026 Todos os direitos reservados</p>
     </footer>
+
   </body>
 </html>
