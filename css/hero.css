@@ -1,0 +1,50 @@
+.hero{
+    background-color: #ff0000;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+.hero__title{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.hero__container{
+    width: 100%;
+    height: 100%;
+    background-image: var(--gradiente) , url("../img/img-01-fundo-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+
+.hero__btn{
+    display: flex;
+    background-color: #a2c0dd;
+    width: 30%;
+    height: 10%;
+    flex-direction: colunm;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    .hero__title{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .hero__text{
+        font-size: 1.4rem;
+        text-align: justify;
+    }
+}
