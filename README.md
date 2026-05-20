@@ -44,7 +44,7 @@ Siga rigorosamente estes passos para que sua contribuição seja aceita:
 ### 2. Desenvolvimento
 
 1. **Crie uma nova branch** para organizar seu trabalho:
-   ```
+```
    git checkout -b feat/estilo-header-SEUNOME
 ```
 1. Abra a pasta no VS Code e edite o arquivo css/style.css.
